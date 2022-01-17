@@ -11,10 +11,11 @@ class ListsController < ApplicationController
     list.save
 
     #トップ画面へリダイレクトさせる
-    redirect_to '/top'
+    redirect_to '/homes/top'
   end
 
   def index
+    @lists = List.all
   end
 
   def show
