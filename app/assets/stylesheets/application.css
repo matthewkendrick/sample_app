@@ -50,7 +50,7 @@ nav {
   margin: 0 auto;
 }
 
-.nav-list-itme {
+.nav-list-item {
   list-style: none;
   display: inline-block;
   flex-wrap: wrap;
